@@ -14,7 +14,7 @@ export const useWishlist = () => {
   return context;
 };
 
-// Provider component
+// Provider component 
 export const WishlistProvider = ({ children }) => {
   const { addToCart } = useCart();
   
@@ -37,7 +37,7 @@ export const WishlistProvider = ({ children }) => {
       
       if (!exists) {
         // Add product to wishlist
-        return [...prevWishlist, { 
+        return [...prevWishlist, {
           id: product.id,
           name: product.name,
           price: product.price,

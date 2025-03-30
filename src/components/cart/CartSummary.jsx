@@ -4,14 +4,14 @@ import { Link } from 'react-router-dom';
 import { useCart } from '../../context/CartContext';
 
 const CartSummary = ({ onCheckout }) => {
-  const { 
-    cart, 
-    totalItems, 
-    cartTotal, 
+  const {
+    cart,
+    totalItems,
+    cartTotal,
     totalDiscount,
-    calculateTax, 
-    calculateShipping, 
-    calculateTotal 
+    calculateTax,
+    calculateShipping,
+    calculateTotal
   } = useCart();
   
   // Format price to currency

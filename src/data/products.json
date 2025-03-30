@@ -1,290 +1,411 @@
 [
-    {
-      "id": 1,
-      "name": "Wireless Earbuds",
-      "image": "https://images.pexels.com/photos/3780681/pexels-photo-3780681.jpeg?auto=compress&cs=tinysrgb&w=500&h=500&dpr=1",
-      "price": 1000,
-      "description": "High-quality wireless earbuds with noise-canceling technology.",
-      "category": "Audio",
-      "stock": 50,
-      "rating": 4.5,
-      "features": ["Noise Cancellation", "Wireless", "Long Battery Life"],
-      "colors": ["Black", "White", "Blue"]
-    },
-    {
-      "id": 2,
-      "name": "Smartphone Stand",
-      "image": "https://images.unsplash.com/photo-1586105251261-72a756497a11?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
-      "price": 249,
-      "description": "Adjustable smartphone stand, perfect for hands-free viewing.",
-      "category": "Accessories",
-      "stock": 100,
-      "rating": 4.2,
-      "features": ["Adjustable", "Sturdy", "Multiple Angles"],
-      "colors": ["Silver", "Black"]
-    },
-    {
-      "id": 3,
-      "name": "Bluetooth Speaker",
-      "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
-      "price": 500,
-      "description": "Portable Bluetooth speaker with deep bass and 10-hour battery life.",
-      "category": "Audio",
-      "stock": 30,
-      "rating": 4.7,
-      "features": ["Waterproof", "Long Battery", "Deep Bass"],
-      "colors": ["Black", "Blue", "Red"]
-    },
-    {
-      "id": 4,
-      "name": "Mechanical Keyboard",
-      "image": "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
-      "price": 1300,
-      "description": "Tactile mechanical keyboard with customizable RGB lighting.",
-      "category": "Accessories",
-      "stock": 60,
-      "rating": 4.8,
-      "features": ["RGB Lighting", "Tactile Feedback", "Programmable"],
-      "colors": ["Black", "White"]
-    },
-    {
-      "id": 5,
-      "name": "Smart Watch",
-      "image": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
-      "price": 1900,
-      "description": "Stylish smart watch with fitness tracking and mobile notifications.",
-      "category": "Wearables",
-      "stock": 40,
-      "rating": 4.4,
-      "features": ["Heart Rate Monitor", "Notifications", "GPS"],
-      "colors": ["Black", "Silver", "Rose Gold"]
-    },
-    {
-      "id": 6,
-      "name": "USB-C Hub",
-      "image": "https://images.unsplash.com/photo-1647427060118-4911c9821b82?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
-      "price": 300,
-      "description": "Multi-port USB-C hub with HDMI, USB 3.0, and SD card reader.",
-      "category": "Accessories",
-      "stock": 80,
-      "rating": 4.3,
-      "features": ["Multiple Ports", "Compact", "Fast Data Transfer"],
-      "colors": ["Silver", "Space Gray"]
-    },
-    {
-      "id": 7,
-      "name": "Wireless Mouse",
-      "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
-      "price": 700,
-      "description": "Ergonomic wireless mouse with adjustable DPI and long battery life.",
-      "category": "Accessories",
-      "stock": 120,
-      "rating": 4.6,
-      "features": ["Ergonomic", "Adjustable DPI", "Long Battery"],
-      "colors": ["Black", "Gray"]
-    },
-    {
-      "id": 8,
-      "name": "4K Monitor",
-      "image": "https://images.unsplash.com/photo-1527443060795-0402a18106c2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
-      "price": 14999,
-      "description": "Ultra HD 4K monitor with vibrant colors and high refresh rate.",
-      "category": "Electronics",
-      "stock": 20,
-      "rating": 4.9,
-      "features": ["4K Resolution", "High Refresh Rate", "Eye Protection"],
-      "colors": ["Black"]
-    },
-    {
-      "id": 9,
-      "name": "Laptop Stand",
-      "image": "https://images.pexels.com/photos/5082579/pexels-photo-5082579.jpeg?auto=compress&cs=tinysrgb&w=500&h=500&dpr=1",
-      "price": 299,
-      "description": "Support for Notebook NOTE BASE 10 to 17 inches Aluminum Foldable Height Adjustable.",
-      "category": "Accessories",
-      "stock": 120,
-      "rating": 4.1,
-      "features": ["Adjustable Height", "Foldable", "Aluminum"],
-      "colors": ["Silver", "Black"]
-    },
-    {
-      "id": 10,
-      "name": "Refrigerator",
-      "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
-      "price": 24999,
-      "description": "Energy-efficient refrigerator with smart temperature control and spacious interior.",
-      "category": "Electronics",
-      "stock": 20,
-      "rating": 4.7,
-      "features": ["Energy Efficient", "Smart Control", "Large Capacity"],
-      "colors": ["Silver", "White", "Black"]
-    },
-    {
-      "id": 11,
-      "name": "Washing Machine",
-      "image": "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
-      "price": 18999,
-      "description": "Front-loading washing machine with multiple wash cycles and energy-saving mode.",
-      "category": "Electronics",
-      "stock": 20,
-      "rating": 4.5,
-      "features": ["Multiple Cycles", "Energy Saving", "Quiet Operation"],
-      "colors": ["White", "Silver"]
-    },
-    {
-      "id": 12,
-      "name": "Microwave",
-      "image": "https://images.unsplash.com/photo-1585659722983-3a675dabf23d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
-      "price": 8999,
-      "description": "Digital microwave oven with multiple cooking presets and defrost function.",
-      "category": "Electronics",
-      "stock": 20,
-      "rating": 4.2,
-      "features": ["Digital Controls", "Multiple Presets", "Defrost Function"],
-      "colors": ["Stainless Steel", "Black"]
-    },
-    {
-      "id": 13,
-      "name": "HP Laptop",
-      "image": "https://images.unsplash.com/photo-1602080858428-57174f9431cf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
-      "price": 39999,
-      "description": "HP 15.6 Laptop - Intel Pentium N200 8GB RAM 256GB SSD.",
-      "category": "Electronics",
-      "stock": 20,
-      "rating": 4.4,
-      "features": ["8GB RAM", "256GB SSD", "15.6 inch Display"],
-      "colors": ["Silver", "Black"]
-    },
-    {
-      "id": 14,
-      "name": "Mouse Pad",
-      "image": "https://images.unsplash.com/photo-1616248304589-6a3d8d60ad7d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
-      "price": 100,
-      "description": "Black and White Wavy Pattern Mousepad | Line Mousepad | Gaming Mousepad",
-      "category": "Accessories",
-      "stock": 120,
-      "rating": 4.0,
-      "features": ["Non-slip Base", "Smooth Surface", "Durable"],
-      "colors": ["Black", "White", "Red"]
-    },
-    {
-      "id": 15,
-      "name": "Wireless Headphone",
-      "image": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
-      "price": 2499,
-      "description": "Active Noise Cancelling, Bluetooth, Wireless Headphones with Microphone",
-      "category": "Audio",
-      "stock": 50,
-      "rating": 4.8,
-      "features": ["Noise Cancellation", "Long Battery", "Built-in Mic"],
-      "colors": ["Black", "Silver", "Gold"]
-    },
-    {
-      "id": 16,
-      "name": "Amazon Echo",
-      "image": "https://images.unsplash.com/photo-1543512214-318c7553f230?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
-      "price": 4999,
-      "description": "Smart speaker with voice assistant capabilities and smart home control.",
-      "category": "Audio",
-      "stock": 50,
-      "rating": 4.6,
-      "features": ["Voice Control", "Smart Home Integration", "Music Streaming"],
-      "colors": ["Black", "White"]
-    },
-    {
-      "id": 17,
-      "name": "Earphone",
-      "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
-      "price": 49,
-      "description": "boAt Bassheads 162 in Ear Wired Earphones with Mic(Active Black)",
-      "category": "Audio",
-      "stock": 50,
-      "rating": 4.1,
-      "features": ["In-ear Design", "Microphone", "Bass Boost"],
-      "colors": ["Black", "Red", "Blue"]
-    },
-    {
-      "id": 18,
-      "name": "Podcast Microphone",
-      "image": "https://images.pexels.com/photos/3783471/pexels-photo-3783471.jpeg?auto=compress&cs=tinysrgb&w=500&h=500&dpr=1",
-      "price": 6999,
-      "description": "FIFINE USB Podcast Microphone for Recording Streaming, Gaming for PC",
-      "category": "Audio",
-      "stock": 50,
-      "rating": 4.7,
-      "features": ["USB Connectivity", "Studio Quality", "Adjustable Stand"],
-      "colors": ["Black", "Silver"]
-    },
-    {
-      "id": 19,
-      "name": "Samsung S24 Ultra",
-      "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
-      "price": 99999,
-      "description": "SAMSUNG Galaxy S24 Ultra Cell Phone, 256GB, 200MP, 100x Zoom",
-      "category": "Electronics",
-      "stock": 20,
-      "rating": 4.9,
-      "features": ["200MP Camera", "256GB Storage", "100x Zoom"],
-      "colors": ["Phantom Black", "Phantom White", "Burgundy"]
-    },
-    {
-      "id": 20,
-      "name": "Watch",
-      "image": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
-      "price": 1999,
-      "description": "AX Armani Exchange Analog Bracelet Watch & Leather Strap Set",
-      "category": "Wearables",
-      "stock": 40,
-      "rating": 4.5,
-      "features": ["Analog", "Water Resistant", "Leather Strap"],
-      "colors": ["Silver", "Gold", "Black"]
-    },
-    {
-      "id": 21,
-      "name": "Bracelet",
-      "image": "https://images.unsplash.com/photo-1611652022419-a9419f74343d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
-      "price": 800,
-      "description": "Crater Design Bump Bracelet Fashion for both men and women",
-      "category": "Wearables",
-      "stock": 40,
-      "rating": 4.2,
-      "features": ["Adjustable Size", "Stylish Design", "Durable"],
-      "colors": ["Silver", "Gold", "Rose Gold"]
-    },
-    {
-      "id": 22,
-      "name": "Fitness Tracker",
-      "image": "https://images.pexels.com/photos/4482933/pexels-photo-4482933.jpeg?auto=compress&cs=tinysrgb&w=500&h=500&dpr=1",
-      "price": 3999,
-      "description": "WHOOP 4.0 Health and Fitness Tracker with 1-Year Membership",
-      "category": "Wearables",
-      "stock": 40,
-      "rating": 4.7,
-      "features": ["Heart Rate Monitor", "Sleep Tracking", "Activity Recognition"],
-      "colors": ["Black", "Blue", "Pink"]
-    },
-    {
-      "id": 23,
-      "name": "VR Box",
-      "image": "https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
-      "price": 1099,
-      "description": "Virtual Reality Glasses for Games and Videos with Bluetooth Controller VR Box",
-      "category": "Wearables",
-      "stock": 40,
-      "rating": 4.3,
-      "features": ["Immersive Experience", "Bluetooth Controller", "Adjustable Headset"],
-      "colors": ["Black"]
-    },
-    {
-      "id": 24,
-      "name": "Wireless Microphone",
-      "image": "https://images.pexels.com/photos/8132431/pexels-photo-8132431.jpeg?auto=compress&cs=tinysrgb&w=500&h=500&dpr=1",
-      "price": 1299,
-      "description": "DJI MIC Wireless Microphone Portable Protective Box Storage Bag",
-      "category": "Audio",
-      "stock": 40,
-      "rating": 4.4,
-      "features": ["Wireless", "Portable", "High-Quality Sound"],
-      "colors": ["Black", "White"]
-    }
-  ]
+  {
+    "id": 1,
+    "name": "Wireless Earbuds",
+    "image": "https://images.pexels.com/photos/3780681/pexels-photo-3780681.jpeg?auto=compress&cs=tinysrgb&w=500&h=500&dpr=1",
+    "images": [
+      "https://images.pexels.com/photos/3780681/pexels-photo-3780681.jpeg?auto=compress&cs=tinysrgb&w=500&h=500&dpr=1",
+      "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "price": 1000,
+    "description": "High-quality wireless earbuds with noise-canceling technology.",
+    "category": "Audio",
+    "stock": 50,
+    "rating": 4.5,
+    "features": ["Noise Cancellation", "Wireless", "Long Battery Life"],
+    "colors": ["Black", "White", "Blue"]
+  },
+  {
+    "id": 2,
+    "name": "Smartphone Stand",
+    "image": "https://images.unsplash.com/photo-1586105251261-72a756497a11?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1586105251261-72a756497a11?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1623126908029-58c58da8085c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1582807129843-8a00296ccb37?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "price": 249,
+    "description": "Adjustable smartphone stand, perfect for hands-free viewing.",
+    "category": "Accessories",
+    "stock": 100,
+    "rating": 4.2,
+    "features": ["Adjustable", "Sturdy", "Multiple Angles"],
+    "colors": ["Silver", "Black"]
+  },
+  {
+    "id": 3,
+    "name": "Bluetooth Speaker",
+    "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1545454675-3531b543be5d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "price": 500,
+    "description": "Portable Bluetooth speaker with deep bass and 10-hour battery life.",
+    "category": "Audio",
+    "stock": 30,
+    "rating": 4.7,
+    "features": ["Waterproof", "Long Battery", "Deep Bass"],
+    "colors": ["Black", "Blue", "Red"]
+  },
+  {
+    "id": 4,
+    "name": "Mechanical Keyboard",
+    "image": "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1561112078-7d24e04c3407?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "price": 1300,
+    "description": "Tactile mechanical keyboard with customizable RGB lighting.",
+    "category": "Accessories",
+    "stock": 60,
+    "rating": 4.8,
+    "features": ["RGB Lighting", "Tactile Feedback", "Programmable"],
+    "colors": ["Black", "White"]
+  },
+  {
+    "id": 5,
+    "name": "Smart Watch",
+    "image": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1548113614-015fded5b200?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "price": 1900,
+    "description": "Stylish smart watch with fitness tracking and mobile notifications.",
+    "category": "Wearables",
+    "stock": 40,
+    "rating": 4.4,
+    "features": ["Heart Rate Monitor", "Notifications", "GPS"],
+    "colors": ["Black", "Silver", "Rose Gold"]
+  },
+  {
+    "id": 6,
+    "name": "USB-C Hub",
+    "image": "https://images.unsplash.com/photo-1647427060118-4911c9821b82?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1647427060118-4911c9821b82?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1531492053556-a9109158991a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1523437345381-db5ee4df9c04?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "price": 300,
+    "description": "Multi-port USB-C hub with HDMI, USB 3.0, and SD card reader.",
+    "category": "Accessories",
+    "stock": 80,
+    "rating": 4.3,
+    "features": ["Multiple Ports", "Compact", "Fast Data Transfer"],
+    "colors": ["Silver", "Space Gray"]
+  },
+  {
+    "id": 7,
+    "name": "Wireless Mouse",
+    "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1586816879360-004f5b0c51e3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "price": 700,
+    "description": "Ergonomic wireless mouse with adjustable DPI and long battery life.",
+    "category": "Accessories",
+    "stock": 120,
+    "rating": 4.6,
+    "features": ["Ergonomic", "Adjustable DPI", "Long Battery"],
+    "colors": ["Black", "Gray"]
+  },
+  {
+    "id": 8,
+    "name": "4K Monitor",
+    "image": "https://images.unsplash.com/photo-1527443060795-0402a18106c2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1527443060795-0402a18106c2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1616459744510-771da0402047?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1614624532983-4ce03382d63d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "price": 14999,
+    "description": "Ultra HD 4K monitor with vibrant colors and high refresh rate.",
+    "category": "Electronics",
+    "stock": 20,
+    "rating": 4.9,
+    "features": ["4K Resolution", "High Refresh Rate", "Eye Protection"],
+    "colors": ["Black"]
+  },
+  {
+    "id": 9,
+    "name": "Laptop Stand",
+    "image": "https://images.pexels.com/photos/5082579/pexels-photo-5082579.jpeg?auto=compress&cs=tinysrgb&w=500&h=500&dpr=1",
+    "images": [
+      "https://images.pexels.com/photos/5082579/pexels-photo-5082579.jpeg?auto=compress&cs=tinysrgb&w=500&h=500&dpr=1",
+      "https://images.unsplash.com/photo-1599496507927-9054a35369b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1631207335016-c13900e00d5b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "price": 299,
+    "description": "Support for Notebook NOTE BASE 10 to 17 inches Aluminum Foldable Height Adjustable.",
+    "category": "Accessories",
+    "stock": 120,
+    "rating": 4.1,
+    "features": ["Adjustable Height", "Foldable", "Aluminum"],
+    "colors": ["Silver", "Black"]
+  },
+  {
+    "id": 10,
+    "name": "Refrigerator",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1628961211261-fe0942d86ed6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1610701596061-2ecf227e85b2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "price": 24999,
+    "description": "Energy-efficient refrigerator with smart temperature control and spacious interior.",
+    "category": "Electronics",
+    "stock": 20,
+    "rating": 4.7,
+    "features": ["Energy Efficient", "Smart Control", "Large Capacity"],
+    "colors": ["Silver", "White", "Black"]
+  },
+  {
+    "id": 11,
+    "name": "Washing Machine",
+    "image": "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1610557892470-55d9e80c0bce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1583947215259-38e31be8751f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "price": 18999,
+    "description": "Front-loading washing machine with multiple wash cycles and energy-saving mode.",
+    "category": "Electronics",
+    "stock": 20,
+    "rating": 4.5,
+    "features": ["Multiple Cycles", "Energy Saving", "Quiet Operation"],
+    "colors": ["White", "Silver"]
+  },
+  {
+    "id": 12,
+    "name": "Microwave",
+    "image": "https://images.unsplash.com/photo-1585659722983-3a675dabf23d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1585659722983-3a675dabf23d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1574269909862-7e1d70bb3ed5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "price": 8999,
+    "description": "Digital microwave oven with multiple cooking presets and defrost function.",
+    "category": "Electronics",
+    "stock": 20,
+    "rating": 4.2,
+    "features": ["Digital Controls", "Multiple Presets", "Defrost Function"],
+    "colors": ["Stainless Steel", "Black"]
+  },
+  {
+    "id": 13,
+    "name": "HP Laptop",
+    "image": "https://images.unsplash.com/photo-1602080858428-57174f9431cf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1602080858428-57174f9431cf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "price": 39999,
+    "description": "HP 15.6 Laptop - Intel Pentium N200 8GB RAM 256GB SSD.",
+    "category": "Electronics",
+    "stock": 20,
+    "rating": 4.4,
+    "features": ["8GB RAM", "256GB SSD", "15.6 inch Display"],
+    "colors": ["Silver", "Black"]
+  },
+  {
+    "id": 14,
+    "name": "Mouse Pad",
+    "image": "https://images.unsplash.com/photo-1616248304589-6a3d8d60ad7d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1616248304589-6a3d8d60ad7d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1563642421748-5047b6585a4a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1618577849293-befac492c27d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "price": 100,
+    "description": "Black and White Wavy Pattern Mousepad | Line Mousepad | Gaming Mousepad",
+    "category": "Accessories",
+    "stock": 120,
+    "rating": 4.0,
+    "features": ["Non-slip Base", "Smooth Surface", "Durable"],
+    "colors": ["Black", "White", "Red"]
+  },
+  {
+    "id": 15,
+    "name": "Wireless Headphone",
+    "image": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1546435770-a3e426bf472b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1613040809024-b4ef7ba99bc3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1547949003-9792a18a2601?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "price": 2499,
+    "description": "Active Noise Cancelling, Bluetooth, Wireless Headphones with Microphone",
+    "category": "Audio",
+    "stock": 50,
+    "rating": 4.8,
+    "features": ["Noise Cancellation", "Long Battery", "Built-in Mic"],
+    "colors": ["Black", "Silver", "Gold"]
+  },
+  {
+    "id": 16,
+    "name": "Amazon Echo",
+    "image": "https://images.unsplash.com/photo-1543512214-318c7553f230?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1543512214-318c7553f230?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1512446816042-444d641267d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1548612324-2e76ba106505?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "price": 4999,
+    "description": "Smart speaker with voice assistant capabilities and smart home control.",
+    "category": "Audio",
+    "stock": 50,
+    "rating": 4.6,
+    "features": ["Voice Control", "Smart Home Integration", "Music Streaming"],
+    "colors": ["Black", "White"]
+  },
+  {
+    "id": 17,
+    "name": "Earphone",
+    "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1484704849700-f032a568e944?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1612444530582-fc66183b16f7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "price": 49,
+    "description": "boAt Bassheads 162 in Ear Wired Earphones with Mic(Active Black)",
+    "category": "Audio",
+    "stock": 50,
+    "rating": 4.1,
+    "features": ["In-ear Design", "Microphone", "Bass Boost"],
+    "colors": ["Black", "Red", "Blue"]
+  },
+  {
+    "id": 18,
+    "name": "Podcast Microphone",
+    "image": "https://images.pexels.com/photos/3783471/pexels-photo-3783471.jpeg?auto=compress&cs=tinysrgb&w=500&h=500&dpr=1",
+    "images": [
+      "https://images.pexels.com/photos/3783471/pexels-photo-3783471.jpeg?auto=compress&cs=tinysrgb&w=500&h=500&dpr=1",
+      "https://images.unsplash.com/photo-1598550476439-6847785fcea6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1590079014889-667a3a63e26a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "price": 6999,
+    "description": "FIFINE USB Podcast Microphone for Recording Streaming, Gaming for PC",
+    "category": "Audio",
+    "stock": 50,
+    "rating": 4.7,
+    "features": ["USB Connectivity", "Studio Quality", "Adjustable Stand"],
+    "colors": ["Black", "Silver"]
+  },
+  {
+    "id": 19,
+    "name": "Samsung S24 Ultra",
+    "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1546027658-7aa750153465?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "price": 99999,
+    "description": "SAMSUNG Galaxy S24 Ultra Cell Phone, 256GB, 200MP, 100x Zoom",
+    "category": "Electronics",
+    "stock": 20,
+    "rating": 4.9,
+    "features": ["200MP Camera", "256GB Storage", "100x Zoom"],
+    "colors": ["Phantom Black", "Phantom White", "Burgundy"]
+  },
+  {
+    "id": 20,
+    "name": "Watch",
+    "image": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1524592094714-0f0654e20314?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1547996160-81dfa63595aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "price": 1999,
+    "description": "AX Armani Exchange Analog Bracelet Watch & Leather Strap Set",
+    "category": "Wearables",
+    "stock": 40,
+    "rating": 4.5,
+    "features": ["Analog", "Water Resistant", "Leather Strap"],
+    "colors": ["Silver", "Gold", "Black"]
+  },
+  {
+    "id": 21,
+    "name": "Bracelet",
+    "image": "https://images.unsplash.com/photo-1611652022419-a9419f74343d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1611652022419-a9419f74343d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1602173574767-37ac01994b2a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "price": 800,
+    "description": "Crater Design Bump Bracelet Fashion for both men and women",
+    "category": "Wearables",
+    "stock": 40,
+    "rating": 4.2,
+    "features": ["Adjustable Size", "Stylish Design", "Durable"],
+    "colors": ["Silver", "Gold", "Rose Gold"]
+  },
+  {
+    "id": 22,
+    "name": "Fitness Tracker",
+    "image": "https://images.pexels.com/photos/4482933/pexels-photo-4482933.jpeg?auto=compress&cs=tinysrgb&w=500&h=500&dpr=1",
+    "images": [
+      "https://images.pexels.com/photos/4482933/pexels-photo-4482933.jpeg?auto=compress&cs=tinysrgb&w=500&h=500&dpr=1",
+      "https://images.unsplash.com/photo-1575311373937-040b8e97df66?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1631281956016-3cdc1b2fe5fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "price": 3999,
+    "description": "WHOOP 4.0 Health and Fitness Tracker with 1-Year Membership",
+    "category": "Wearables",
+    "stock": 40,
+    "rating": 4.7,
+    "features": ["Heart Rate Monitor", "Sleep Tracking", "Activity Recognition"],
+    "colors": ["Black", "Blue", "Pink"]
+  },
+  {
+    "id": 23,
+    "name": "VR Box",
+    "image": "https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1626188012896-634401b97a73?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1622979135240-caa35a425e99?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "price": 1099,
+    "description": "Virtual Reality Glasses for Games and Videos with Bluetooth Controller VR Box",
+    "category": "Wearables",
+    "stock": 40,
+    "rating": 4.3,
+    "features": ["Immersive Experience", "Bluetooth Controller", "Adjustable Headset"],
+    "colors": ["Black"]
+  },
+  {
+    "id": 24,
+    "name": "Wireless Microphone",
+    "image": "https://images.pexels.com/photos/8132431/pexels-photo-8132431.jpeg?auto=compress&cs=tinysrgb&w=500&h=500&dpr=1",
+    "images": [
+      "https://images.pexels.com/photos/8132431/pexels-photo-8132431.jpeg?auto=compress&cs=tinysrgb&w=500&h=500&dpr=1",
+      "https://images.unsplash.com/photo-1516575334481-f85287c2c82d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1610726363972-c65b62fbae43?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "price": 1299,
+    "description": "DJI MIC Wireless Microphone Portable Protective Box Storage Bag",
+    "category": "Audio",
+    "stock": 40,
+    "rating": 4.4,
+    "features": ["Wireless", "Portable", "High-Quality Sound"],
+    "colors": ["Black", "White"]
+  }
+]

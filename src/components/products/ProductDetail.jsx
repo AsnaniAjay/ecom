@@ -1,11 +1,17 @@
 // src/components/products/ProductDetail.jsx
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom"; 
 import RelatedProducts from "./RelatedProducts";
+import { useCart } from "../../context/CartContext";
+import { useWishlist } from "../../context/WishlistContext";
 
 const ProductDetail = ({ product, relatedProducts }) => {
   const [activeTab, setActiveTab] = useState("description");
   const [selectedImage, setSelectedImage] = useState(0);
   const [quantity, setQuantity] = useState(1);
+  const navigate = useNavigate();
+  const { addToCart } = useCart();
+  const { addToWishlist, isInWishlist } = useWishlist();
 
   // Format price to currency
   const formatPrice = (price) => {
@@ -43,13 +49,66 @@ const ProductDetail = ({ product, relatedProducts }) => {
     }
   };
 
-  // Create placeholder image gallery if no additional images
-  const imageGallery = [
-    product.image,
-    // Placeholder additional images for demo purposes
-    "https://images.unsplash.com/photo-1587829741301-dc798b83add3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
-    "https://images.unsplash.com/photo-1600294037881-c80b51fa0616?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
-  ];
+  // Handle add to cart
+  const handleAddToCart = () => {
+    // Create cart item from product data
+    const cartItem = {
+      id: product.id,
+      name: product.name,
+      price: product.price * 100, // Convert to cents to match CartItem.jsx format
+      image: product.image,
+      category: product.category,
+      quantity: quantity,
+      stock: product.stock
+    };
+    
+    // Add to cart
+    addToCart(cartItem);
+    
+    // Navigate to cart page
+    navigate("/cart");
+  };
+
+  // Handle add to wishlist
+  const handleAddToWishlist = () => {
+    // Create wishlist item from product data
+    const wishlistItem = {
+      id: product.id,
+      name: product.name,
+      price: product.price * 100, // Convert to cents to match WishlistItem.jsx format
+      image: product.image,
+      category: product.category,
+      stock: product.stock,
+      rating: product.rating,
+      description: product.description
+    };
+    
+    // Add to wishlist
+    addToWishlist(wishlistItem);
+    
+    // Navigate to wishlist page
+    navigate("/wishlist");
+  };
+
+  // Check if product is already in wishlist
+  const productInWishlist = isInWishlist(product.id);
+
+  // Get image gallery from product
+  const getImageGallery = () => {
+    // If product has images array, use it
+    if (product.images && product.images.length > 0) {
+      return product.images;
+    }
+    
+    // Fallback to single image with placeholders
+    return [
+      product.image,
+      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1600294037881-c80b51fa0616?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ];
+  };
+
+  const imageGallery = getImageGallery();
 
   return (
     <div className="container mx-auto px-4 py-8">
@@ -64,12 +123,12 @@ const ProductDetail = ({ product, relatedProducts }) => {
                 className="w-full h-full object-contain"
               />
             </div>
-            <div className="grid grid-cols-3 gap-2">
+            <div className="grid grid-cols-5 gap-2">
               {imageGallery.map((image, index) => (
                 <button
                   key={index}
                   onClick={() => setSelectedImage(index)}
-                  className={`h-20 rounded overflow-hidden border-2 ${
+                  className={`h-16 rounded overflow-hidden border-2 ${
                     selectedImage === index
                       ? "border-blue-500"
                       : "border-transparent"
@@ -166,10 +225,10 @@ const ProductDetail = ({ product, relatedProducts }) => {
                       Red: "bg-red-500",
                       Green: "bg-green-500",
                       Gold: "bg-yellow-600",
+                    Pink: "bg-pink-500",
                       "Rose Gold": "bg-pink-300",
                       "Space Gray": "bg-gray-700",
                       Burgundy: "bg-red-800",
-                      Pink: "bg-pink-500",
                       "Stainless Steel": "bg-gray-400",
                     };
 
@@ -225,11 +284,20 @@ const ProductDetail = ({ product, relatedProducts }) => {
               <button
                 className="w-full sm:w-auto px-6 py-3 bg-blue-600 text-white font-medium rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition"
                 disabled={product.stock <= 0}
+                onClick={handleAddToCart}
               >
                 Add to Cart
               </button>
-              <button className="w-full sm:w-auto px-6 py-3 bg-white text-blue-600 font-medium rounded-md border border-blue-600 hover:bg-blue-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition">
-                Add to Wishlist
+              <button 
+                className={`w-full sm:w-auto px-6 py-3 font-medium rounded-md border focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition ${
+                  productInWishlist 
+                    ? "bg-gray-100 text-gray-600 border-gray-300 hover:bg-gray-200"
+                    : "bg-white text-blue-600 border-blue-600 hover:bg-blue-50"
+                }`}
+                onClick={handleAddToWishlist}
+                disabled={productInWishlist}
+              >
+                {productInWishlist ? "In Wishlist" : "Add to Wishlist"}
               </button>
             </div>
 
