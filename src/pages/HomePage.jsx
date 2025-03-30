@@ -60,8 +60,9 @@ const HomePage = () => {
                 {loading ? (
                   <Loading type="spinner" color="white" fullPage={false} />
                 ) : featuredProducts.slice(0, 4).map((product, index) => (
-                  <div 
-                    key={product.id}
+                  <Link 
+                    key={product.id} 
+                    to={`/product/${product.id}`}
                     className={`bg-white/10 backdrop-blur-sm rounded-lg p-4 transform transition-transform hover:scale-105 ${
                       index % 2 === 0 ? 'mt-4' : 'mb-4'
                     }`}
@@ -76,7 +77,7 @@ const HomePage = () => {
                       <span className="font-bold">${(product.price / 100).toFixed(2)}</span>
                       <Badge variant="primary" size="sm">New</Badge>
                     </div>
-                  </div>
+                  </Link>
                 ))}
               </div>
             </div>
@@ -156,7 +157,9 @@ const HomePage = () => {
           ) : (
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
               {newArrivals.map(product => (
-                <ProductCard key={product.id} product={product} />
+                <Link key={product.id} to={`/product/${product.id}`} className="block">
+                  <ProductCard product={product} />
+                </Link>
               ))}
             </div>
           )}
@@ -165,36 +168,33 @@ const HomePage = () => {
 
       {/* Featured Banner */}
       <section className="py-12 bg-gray-900 text-white">
-  <div className="container mx-auto px-4">
-    <div className="flex flex-col md:flex-row items-center">
-      <div className="md:w-1/2 mb-8 md:mb-0">
-        <h2 className="text-2xl md:text-4xl font-bold mb-4">Special Offer</h2>
-        <p className="text-lg text-gray-300 mb-6">Get up to 40% off on selected electronics. Limited time offer.</p>
-        <Link 
-          to="/catalog?discount=true" 
-          className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition duration-300"
-        >
-          Shop Deals
-        </Link>
-      </div>
-      <div className="md:w-1/2 flex justify-center">
-        <div className="relative">
-          <div className="absolute -top-4 -right-6 bg-yellow-500 text-black font-bold rounded-full w-16 h-16 flex items-center justify-center transform rotate-12">
-            40%<br/> OFF
+        <div className="container mx-auto px-4">
+          <div className="flex flex-col md:flex-row items-center">
+            <div className="md:w-1/2 mb-8 md:mb-0">
+              <h2 className="text-2xl md:text-4xl font-bold mb-4">Special Offer</h2>
+              <p className="text-lg text-gray-300 mb-6">Get up to 40% off on selected electronics. Limited time offer.</p>
+              <Link 
+                to="/catalog?discount=true" 
+                className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition duration-300"
+              >
+                Shop Deals
+              </Link>
+            </div>
+            <div className="md:w-1/2 flex justify-center">
+              <div className="relative">
+                <div className="absolute -top-4 -right-6 bg-yellow-500 text-black font-bold rounded-full w-16 h-16 flex items-center justify-center transform rotate-12">
+                  40%<br/> OFF
+                </div>
+                <img 
+                  src="https://images.pexels.com/photos/3944405/pexels-photo-3944405.jpeg?w=300&q=80" 
+                  alt="Electronics Sale" 
+                  className="rounded-lg shadow-lg max-w-xs"
+                />
+              </div>
+            </div>
           </div>
-          <img 
-  src="https://images.pexels.com/photos/3944405/pexels-photo-3944405.jpeg?w=300&q=80" 
-  alt="Electronics Sale" 
-  className="rounded-lg shadow-lg max-w-xs"
-/>
-
         </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
+      </section>
 
       {/* Featured Products Section */}
       <section className="py-12 bg-blue-50">
@@ -213,7 +213,9 @@ const HomePage = () => {
           ) : (
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
               {featuredProducts.map(product => (
-                <ProductCard key={product.id} product={product} />
+                <Link key={product.id} to={`/product/${product.id}`} className="block">
+                  <ProductCard product={product} />
+                </Link>
               ))}
             </div>
           )}
