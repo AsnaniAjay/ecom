@@ -165,33 +165,36 @@ const HomePage = () => {
 
       {/* Featured Banner */}
       <section className="py-12 bg-gray-900 text-white">
-        <div className="container mx-auto px-4">
-          <div className="flex flex-col md:flex-row items-center">
-            <div className="md:w-1/2 mb-8 md:mb-0">
-              <h2 className="text-2xl md:text-4xl font-bold mb-4">Special Offer</h2>
-              <p className="text-lg text-gray-300 mb-6">Get up to 40% off on selected electronics. Limited time offer.</p>
-              <Link 
-                to="/catalog?discount=true" 
-                className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition duration-300"
-              >
-                Shop Deals
-              </Link>
-            </div>
-            <div className="md:w-1/2 flex justify-center">
-              <div className="relative">
-                <div className="absolute -top-4 -right-4 bg-yellow-500 text-black font-bold rounded-full w-16 h-16 flex items-center justify-center transform rotate-12">
-                  40% OFF
-                </div>
-                <img 
-                  src="https://images.unsplash.com/photo-1607016284318-d1384f47d3ba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" 
-                  alt="Special Offer" 
-                  className="rounded-lg shadow-lg max-w-xs"
-                />
-              </div>
-            </div>
+  <div className="container mx-auto px-4">
+    <div className="flex flex-col md:flex-row items-center">
+      <div className="md:w-1/2 mb-8 md:mb-0">
+        <h2 className="text-2xl md:text-4xl font-bold mb-4">Special Offer</h2>
+        <p className="text-lg text-gray-300 mb-6">Get up to 40% off on selected electronics. Limited time offer.</p>
+        <Link 
+          to="/catalog?discount=true" 
+          className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition duration-300"
+        >
+          Shop Deals
+        </Link>
+      </div>
+      <div className="md:w-1/2 flex justify-center">
+        <div className="relative">
+          <div className="absolute -top-4 -right-6 bg-yellow-500 text-black font-bold rounded-full w-16 h-16 flex items-center justify-center transform rotate-12">
+            40%<br/> OFF
           </div>
+          <img 
+  src="https://images.pexels.com/photos/3944405/pexels-photo-3944405.jpeg?w=300&q=80" 
+  alt="Electronics Sale" 
+  className="rounded-lg shadow-lg max-w-xs"
+/>
+
         </div>
-      </section>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 
       {/* Featured Products Section */}
       <section className="py-12 bg-blue-50">
