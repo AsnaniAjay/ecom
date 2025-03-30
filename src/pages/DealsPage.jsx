@@ -151,25 +151,27 @@ const DealsPage = () => {
         </div>
       </section>
       
-      {/* Newsletter Banner */}
-      <section className="py-12 bg-blue-600 text-white">
-        <div className="container mx-auto px-4 text-center">
+    {/* Newsletter Section */}
+    <section className="py-12 bg-white">
+        <div className="container mx-auto px-4 max-w-3xl text-center">
           <h2 className="text-2xl md:text-3xl font-bold mb-3">Get Exclusive Deals</h2>
-          <p className="text-blue-100 mb-6 max-w-2xl mx-auto">
-            Subscribe to our newsletter and be the first to know about our special offers and upcoming sales.
-          </p>
-          <div className="max-w-md mx-auto">
-            <div className="flex flex-col sm:flex-row gap-2">
-              <input 
-                type="email" 
-                placeholder="Your email address" 
-                className="flex-grow px-4 py-3 rounded-lg focus:outline-none text-gray-800"
-              />
-              <button className="px-6 py-3 bg-yellow-500 text-gray-900 font-medium rounded-lg hover:bg-yellow-400 transition">
-                Subscribe
-              </button>
-            </div>
-          </div>
+          <p className="text-gray-600 mb-8">Subscribe to our newsletter for the latest product updates and exclusive offers.</p>
+          
+          <form className="flex flex-col sm:flex-row gap-2">
+            <input 
+              type="email" 
+              placeholder="Your email address" 
+              className="flex-grow px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              required
+            />
+            <button 
+              type="submit" 
+              className="px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition duration-300"
+            >
+              Subscribe
+            </button>
+          </form>
+          <p className="text-xs text-gray-500 mt-4">By subscribing, you agree to our Privacy Policy and consent to receive updates from our company.</p>
         </div>
       </section>
     </Layout>
